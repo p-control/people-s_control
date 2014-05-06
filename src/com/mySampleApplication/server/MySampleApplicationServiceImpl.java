@@ -7,6 +7,5 @@ public class MySampleApplicationServiceImpl extends RemoteServiceServlet impleme
     // Implementation of sample interface method
     public String getMessage(String msg) {
         return "Клієнт пише: \"" + msg + "\"<br>Сервер відповідає: \"Hi!\"";
-
     }
 }
